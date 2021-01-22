@@ -1,5 +1,0 @@
-# Cors
-
-::: tip
-TODO
-:::

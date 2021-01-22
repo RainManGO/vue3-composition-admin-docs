@@ -1,5 +1,0 @@
-# Typescript Support
-
-::: tip
-TODO
-:::

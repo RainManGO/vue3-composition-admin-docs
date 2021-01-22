@@ -1,5 +1,0 @@
-# Permission
-
-::: tip
-TODO
-:::

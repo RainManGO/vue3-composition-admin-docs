@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>vue3-composition-admin </title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="icon" href="/vue3-composition-admin-docs/favicon.ico">
+    <meta name="description" content="一个基于 typescript 的神奇的 vue3 管理平台模版">
+    
+    <link rel="preload" href="/vue3-composition-admin-docs/assets/css/0.styles.a4df05c0.css" as="style"><link rel="preload" href="/vue3-composition-admin-docs/assets/js/app.acf8c741.js" as="script"><link rel="preload" href="/vue3-composition-admin-docs/assets/js/2.e8e42ba1.js" as="script"><link rel="preload" href="/vue3-composition-admin-docs/assets/js/71.6a82194a.js" as="script"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/10.750ace72.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/100.43540cd7.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/101.a1e9e503.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/102.336c8676.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/103.964b98c0.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/104.ab4178b9.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/105.c0cbb291.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/106.0f49db87.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/107.cdd02bae.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/108.b4d4b365.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/11.c1a9d6d2.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/12.7a72b6ec.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/13.50a91f04.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/14.4889cefe.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/15.3cd78b90.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/16.667a8b72.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/17.06d8dc0a.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/18.e703d3f0.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/19.17d9442c.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/20.b31ce943.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/21.516ab36c.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/22.02b832cf.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/23.8b45b3e9.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/24.ee40525f.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/25.f066b993.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/26.dc593355.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/27.6beb924d.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/28.297ec4da.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/29.9270f02f.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/3.57ede592.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/30.f6b6615c.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/31.af586a30.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/32.77e6ab0e.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/33.92db3619.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/34.486340d6.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/35.fa6f7f31.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/36.c869b958.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/37.844c3291.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/38.0bac23d5.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/39.bf1e9f53.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/4.865692a8.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/40.7c171470.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/41.8815a33c.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/42.6acbbf38.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/43.cf122f20.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/44.b00e55f8.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/45.a4461ee0.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/46.b240a79e.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/47.962f9253.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/48.db8b18ef.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/49.55ec3e6b.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/5.81254301.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/50.64040712.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/51.b2e2c69b.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/52.a71eb76c.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/53.4f115efe.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/54.2486bd91.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/55.454465ab.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/56.613ef456.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/57.19de78aa.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/58.0c7416f5.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/59.f6ee1b85.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/6.6e8c67be.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/60.475d0112.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/61.05bad5c2.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/62.3007783d.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/63.5503523c.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/64.d6603c01.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/65.86adeb4a.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/66.0237cd40.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/67.acb98704.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/68.95b70aa0.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/69.4c43f961.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/7.1c50ffc8.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/70.c247fca4.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/72.38873458.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/73.1efdad7d.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/74.57f64f03.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/75.a4a51486.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/76.893b71fe.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/77.9cea37cb.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/78.cc567dd7.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/79.b4ea2103.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/8.58394688.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/80.0715d9ff.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/81.12eed12f.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/82.cb5877dc.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/83.93214093.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/84.f3a0c375.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/85.3797ffb9.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/86.940c04f5.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/87.eee272d8.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/88.87a3480b.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/89.745a4c5a.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/9.3127f5b5.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/90.b06871d3.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/91.e5d0e651.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/92.cff60c22.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/93.54963b44.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/94.ef4dab55.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/95.8bfce227.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/96.439bb9ce.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/97.6510b2bd.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/98.612a6108.js"><link rel="prefetch" href="/vue3-composition-admin-docs/assets/js/99.118755ee.js">
+    <link rel="stylesheet" href="/vue3-composition-admin-docs/assets/css/0.styles.a4df05c0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vue3-composition-admin-docs/zh/" class="home-link router-link-active"><!----> <span class="site-name">vue3-composition-admin </span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vue3-composition-admin-docs/zh/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="功能" class="dropdown-title"><span class="title">功能</span> <span class="arrow down"></span></button> <button type="button" aria-label="功能" class="mobile-dropdown-title"><span class="title">功能</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          组件
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/avatar-upload.html" class="nav-link">
+  头像上传
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/back-to-top.html" class="nav-link">
+  返回顶部
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/breadcrumb.html" class="nav-link">
+  面包屑导航
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/charts.html" class="nav-link">
+  图表
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/draggable-kanban.html" class="nav-link">
+  可拖拽看板
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/draggable-list.html" class="nav-link">
+  可拖拽列表
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/draggable-select.html" class="nav-link">
+  可拖拽选择
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/draggable-menu.html" class="nav-link">
+  可拖拽菜单
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/dropzone.html" class="nav-link">
+  Dropzone
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/error-log.html" class="nav-link">
+  错误日志
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/github-corner.html" class="nav-link">
+  Github 挂角链接
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/hamburger.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  汉堡包图标
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/header-search.html" class="nav-link">
+  搜索栏
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/json-editor.html" class="nav-link">
+  Json 编辑器
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/lang-select.html" class="nav-link">
+  语言选择
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/markdown-editor.html" class="nav-link">
+  Markdown 编辑器
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/material-input.html" class="nav-link">
+  Meterial 输入
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/pagination.html" class="nav-link">
+  分页
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/pan-thumb.html" class="nav-link">
+  Pan Thumb
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/rich-editor.html" class="nav-link">
+  富文本
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/right-panel.html" class="nav-link">
+  右侧边栏
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/screenfull.html" class="nav-link">
+  全屏化
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/size-select.html" class="nav-link">
+  字体大小选择
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/sticky.html" class="nav-link">
+  Sticky
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/text-hover-effect.html" class="nav-link">
+  文字悬停效果
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/theme-picker.html" class="nav-link">
+  主题选择
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/upload-excel.html" class="nav-link">
+  上传Excel
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/upload-image.html" class="nav-link">
+  上传图片
+</a></li></ul></li><li class="dropdown-item"><h4>
+          指令
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/directives/clipboard.html" class="nav-link">
+  粘贴板
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/directives/draggable-dialog.html" class="nav-link">
+  可拖拽对话框
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/directives/permission.html" class="nav-link">
+  权限
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/directives/waves.html" class="nav-link">
+  波纹特效
+</a></li></ul></li><li class="dropdown-item"><h4>
+          图标
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/icons/svg-icons.html" class="nav-link">
+  svg 图标
+</a></li></ul></li><li class="dropdown-item"><h4>
+          PWA
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/pwa/service-worker-update-popup.html" class="nav-link">
+  PWA 自动更新弹窗
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="生态系统" class="dropdown-title"><span class="title">生态系统</span> <span class="arrow down"></span></button> <button type="button" aria-label="生态系统" class="mobile-dropdown-title"><span class="title">生态系统</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          项目
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://github.com/rcyj-FED/vue3-composition-admin.git" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  vue3-composition-admin
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li><li class="dropdown-item"><h4>
+          帮助
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/guide/other/faq.html" class="nav-link">
+  常见问题
+</a></li><li class="dropdown-subitem"><a href="https://github.com/rcyj-FED/vue3-composition-admin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  微信群
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li></ul></div></div><div class="nav-item"><a href="/vue3-composition-admin-docs/zh/donate/" class="nav-link">
+  捐赠
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vue3-composition-admin-docs/features/components/hamburger.html" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/vue3-composition-admin-docs/zh/features/components/hamburger.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  简体中文
+</a></li></ul></div></div> <a href="https://github.com/armour/vue3-composition-admin -template" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/vue3-composition-admin-docs/zh/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="功能" class="dropdown-title"><span class="title">功能</span> <span class="arrow down"></span></button> <button type="button" aria-label="功能" class="mobile-dropdown-title"><span class="title">功能</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          组件
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/avatar-upload.html" class="nav-link">
+  头像上传
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/back-to-top.html" class="nav-link">
+  返回顶部
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/breadcrumb.html" class="nav-link">
+  面包屑导航
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/charts.html" class="nav-link">
+  图表
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/draggable-kanban.html" class="nav-link">
+  可拖拽看板
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/draggable-list.html" class="nav-link">
+  可拖拽列表
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/draggable-select.html" class="nav-link">
+  可拖拽选择
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/draggable-menu.html" class="nav-link">
+  可拖拽菜单
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/dropzone.html" class="nav-link">
+  Dropzone
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/error-log.html" class="nav-link">
+  错误日志
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/github-corner.html" class="nav-link">
+  Github 挂角链接
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/hamburger.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  汉堡包图标
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/header-search.html" class="nav-link">
+  搜索栏
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/json-editor.html" class="nav-link">
+  Json 编辑器
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/lang-select.html" class="nav-link">
+  语言选择
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/markdown-editor.html" class="nav-link">
+  Markdown 编辑器
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/material-input.html" class="nav-link">
+  Meterial 输入
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/pagination.html" class="nav-link">
+  分页
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/pan-thumb.html" class="nav-link">
+  Pan Thumb
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/rich-editor.html" class="nav-link">
+  富文本
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/right-panel.html" class="nav-link">
+  右侧边栏
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/screenfull.html" class="nav-link">
+  全屏化
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/size-select.html" class="nav-link">
+  字体大小选择
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/sticky.html" class="nav-link">
+  Sticky
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/text-hover-effect.html" class="nav-link">
+  文字悬停效果
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/theme-picker.html" class="nav-link">
+  主题选择
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/upload-excel.html" class="nav-link">
+  上传Excel
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/components/upload-image.html" class="nav-link">
+  上传图片
+</a></li></ul></li><li class="dropdown-item"><h4>
+          指令
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/directives/clipboard.html" class="nav-link">
+  粘贴板
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/directives/draggable-dialog.html" class="nav-link">
+  可拖拽对话框
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/directives/permission.html" class="nav-link">
+  权限
+</a></li><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/directives/waves.html" class="nav-link">
+  波纹特效
+</a></li></ul></li><li class="dropdown-item"><h4>
+          图标
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/icons/svg-icons.html" class="nav-link">
+  svg 图标
+</a></li></ul></li><li class="dropdown-item"><h4>
+          PWA
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/features/pwa/service-worker-update-popup.html" class="nav-link">
+  PWA 自动更新弹窗
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="生态系统" class="dropdown-title"><span class="title">生态系统</span> <span class="arrow down"></span></button> <button type="button" aria-label="生态系统" class="mobile-dropdown-title"><span class="title">生态系统</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          项目
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://github.com/rcyj-FED/vue3-composition-admin.git" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  vue3-composition-admin
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li><li class="dropdown-item"><h4>
+          帮助
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/vue3-composition-admin-docs/zh/guide/other/faq.html" class="nav-link">
+  常见问题
+</a></li><li class="dropdown-subitem"><a href="https://github.com/rcyj-FED/vue3-composition-admin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  微信群
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li></ul></div></div><div class="nav-item"><a href="/vue3-composition-admin-docs/zh/donate/" class="nav-link">
+  捐赠
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vue3-composition-admin-docs/features/components/hamburger.html" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/vue3-composition-admin-docs/zh/features/components/hamburger.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  简体中文
+</a></li></ul></div></div> <a href="https://github.com/armour/vue3-composition-admin -template" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><a href="/vue3-composition-admin-docs/zh/features/components/avatar-upload.html" class="sidebar-link">王继民</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/back-to-top.html" class="sidebar-link">/zh/features/components/back-to-top.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/breadcrumb.html" class="sidebar-link">/zh/features/components/breadcrumb.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/charts.html" class="sidebar-link">/zh/features/components/charts.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/draggable-kanban.html" class="sidebar-link">/zh/features/components/draggable-kanban.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/draggable-list.html" class="sidebar-link">/zh/features/components/draggable-list.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/draggable-menu.html" class="sidebar-link">/zh/features/components/draggable-menu.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/draggable-select.html" class="sidebar-link">/zh/features/components/draggable-select.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/dropzone.html" class="sidebar-link">/zh/features/components/dropzone.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/error-log.html" class="sidebar-link">/zh/features/components/error-log.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/github-corner.html" class="sidebar-link">/zh/features/components/github-corner.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/hamburger.html" aria-current="page" class="active sidebar-link">/zh/features/components/hamburger.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/header-search.html" class="sidebar-link">/zh/features/components/header-search.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/json-editor.html" class="sidebar-link">/zh/features/components/json-editor.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/lang-select.html" class="sidebar-link">/zh/features/components/lang-select.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/markdown-editor.html" class="sidebar-link">/zh/features/components/markdown-editor.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/material-input.html" class="sidebar-link">/zh/features/components/material-input.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/pagination.html" class="sidebar-link">/zh/features/components/pagination.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/pan-thumb.html" class="sidebar-link">/zh/features/components/pan-thumb.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/rich-editor.html" class="sidebar-link">/zh/features/components/rich-editor.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/right-panel.html" class="sidebar-link">/zh/features/components/right-panel.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/screenfull.html" class="sidebar-link">/zh/features/components/screenfull.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/size-select.html" class="sidebar-link">/zh/features/components/size-select.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/sticky.html" class="sidebar-link">/zh/features/components/sticky.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/text-hover-effect.html" class="sidebar-link">/zh/features/components/text-hover-effect.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/theme-picker.html" class="sidebar-link">/zh/features/components/theme-picker.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/upload-excel.html" class="sidebar-link">/zh/features/components/upload-excel.html</a></li><li><a href="/vue3-composition-admin-docs/zh/features/components/upload-image.html" class="sidebar-link">/zh/features/components/upload-image.html</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/armour/vue3-composition-admin-docs/edit/master/docs/zh/features/components/hamburger.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">2021/1/22 上午9:25:38</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/vue3-composition-admin-docs/zh/features/components/github-corner.html" class="prev">
+        /zh/features/components/github-corner.html
+      </a></span> <span class="next"><a href="/vue3-composition-admin-docs/zh/features/components/header-search.html">
+        /zh/features/components/header-search.html
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/vue3-composition-admin-docs/assets/js/app.acf8c741.js" defer></script><script src="/vue3-composition-admin-docs/assets/js/2.e8e42ba1.js" defer></script><script src="/vue3-composition-admin-docs/assets/js/71.6a82194a.js" defer></script>
+  </body>
+</html>
