@@ -9,7 +9,7 @@
 [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) 是一个后台的集成方案，它囊括了很多的功能和组件，并不适合作为基础模板来进行二次开发。
 [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) 则是一个后台的基础模板脚手架，适合在它的基础上进行二次开发。
 
-[vue3-composition-admin -template](https://github.com/Armour/vue3-composition-admin -template)(本项目) 是基于 typescript 重写的版本, [master](https://github.com/Armour/vue3-composition-admin -template/tree/master) 分支对应着 vue-element-admin 的完整功能，而 [minimal](https://github.com/Armour/vue3-composition-admin -template/tree/minimal) 分支对应着 vue-admin-template 的基础功能。
+[vue3-composition-admin -template](https://github.com/rcyj-FED/vue3-composition-admin)(本项目) 是基于 typescript 重写的版本, [master](https://github.com/rcyj-FED/vue3-composition-admin/tree/master) 分支对应着 vue-element-admin 的完整功能，而 [minimal](https://github.com/rcyj-FED/vue3-composition-admin/tree/minimal) 分支对应着 vue-admin-template 的基础功能。
 
 ## 遇到不懂的问题第一件要做的事
 

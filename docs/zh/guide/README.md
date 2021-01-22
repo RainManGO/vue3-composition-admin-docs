@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Template from jarvis](https://img.shields.io/badge/Hi-Jarvis-ff69b4.svg)](https://github.com/Armour/Jarvis)
 [![Donate](https://img.shields.io/badge/%24-donate-ff69b4.svg)](https://armour.github.io/vue3-composition-admin-docs/zh/donate)
-[![GitHub stars](https://img.shields.io/github/stars/armour/vue3-composition-admin -template.svg?style=social&label=Stars)](https://github.com/armour/vue3-composition-admin -template)
+[![GitHub stars](https://img.shields.io/github/stars/armour/vue3-composition-admin -template.svg?style=social&label=Stars)](https://github.com/rcyj-FED/vue3-composition-admin)
 
 [vue3-composition-admin -template](http://armour.github.io/vue3-composition-admin -template) 是一个后台前端解决方案，它基于 [vue](https://github.com/vuejs/vue), [typescript](https://www.typescriptlang.org/) 和 [element-ui](https://github.com/ElemeFE/element)实现。原始的 Javscript 版本的代码是由 [PanJiaChen](https://github.com/PanJiaChen) 开发维护的 [vue-element-admin](http://armour.github.io/vue3-composition-admin -template)， 十分感谢大佬对开源社区做出的贡献 :)
 
@@ -16,7 +16,7 @@
 本项目的默认分支 `master` 定位是后台集成方案，不太适合当基础模板来进行二次开发。因为本项目集成了很多你可能用不到的功能，会造成不少的代码冗余。如果你想移除不需要的组件，可以参考[移除未用组件](/zh/guide/advanced/remove-unused-components)页面, 或者你可以使用位于 `minimal` 分支的简易基础模版。
 
 相关项目:
-- Javascript 集成样例: [vue-element-admin](https://github.com/armour/vue3-composition-admin -template) (鸣谢: [PanJiaChen](https://github.com/PanJiaChen))
+- Javascript 集成样例: [vue-element-admin](https://github.com/rcyj-FED/vue3-composition-admin) (鸣谢: [PanJiaChen](https://github.com/PanJiaChen))
 - Javascript 基础摸板: [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) (鸣谢: [PanJiaChen](https://github.com/PanJiaChen))
 :::
 
@@ -153,7 +153,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/armour/vue3-composition-admin -template.git
+git clone https://github.com/rcyj-FED/vue3-composition-admin.git
 
 # 进入项目目录
 cd vue3-composition-admin -template
@@ -194,7 +194,7 @@ yarn serve # 或者 npm run serve
 
 ## 讨论群
 
-欢迎加入[微信群](https://github.com/Armour/vue3-composition-admin -template/issues/62)参与相关讨论或者提问。
+欢迎加入[微信群](https://github.com/rcyj-FED/vue3-composition-admin/issues/62)参与相关讨论或者提问。
 
 ## Vue 生态圈
 

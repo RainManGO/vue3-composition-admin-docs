@@ -125,7 +125,7 @@ meta: {
 前面也介绍了，侧边栏是通过读取路由并结合权限判断而动态生成的，而且还需要支持路由无限嵌套，所以这里还使用到了递归组件。
 
 ::: tip 代码地址
-[@/views/layout/components/Sidebar](https://github.com/armour/vue3-composition-admin -template/tree/master/src/layout/components/Sidebar)
+[@/views/layout/components/Sidebar](https://github.com/rcyj-FED/vue3-composition-admin/tree/master/src/layout/components/Sidebar)
 :::
 
 这里同时也改造了 `element-ui` 默认侧边栏不少的样式，每个组件都可能改造或添加了自己的scss样式(之后会被webpack编译成css样式)，你也可以根据自己的需求进行修改。
@@ -183,14 +183,14 @@ meta: {
 ```
 
 ::: tip unique-opened
-你可以在 [Sidebar/index.vue](https://github.com/armour/vue3-composition-admin -template/blob/master/src/layout/components/Sidebar/index.vue) 中设置 `unique-opened` 来控制侧边栏，是否只保持一个子菜单的展开。
+你可以在 [Sidebar/index.vue](https://github.com/rcyj-FED/vue3-composition-admin/blob/master/src/layout/components/Sidebar/index.vue) 中设置 `unique-opened` 来控制侧边栏，是否只保持一个子菜单的展开。
 :::
 
 ## 多级目录(嵌套路由)
 
-如果你的路由是多级目录，如本项目 [@/views/nested](https://github.com/armour/vue3-composition-admin -template/tree/master/src/views/nested) 那样， 有三级路由嵌套的情况下，不要忘记还要手动在二级目录的根文件下添加一个 `<router-view>`。
+如果你的路由是多级目录，如本项目 [@/views/nested](https://github.com/rcyj-FED/vue3-composition-admin/tree/master/src/views/nested) 那样， 有三级路由嵌套的情况下，不要忘记还要手动在二级目录的根文件下添加一个 `<router-view>`。
 
-如：[@/views/nested/menu1/index.vue](https://github.com/armour/vue3-composition-admin -template/blob/master/src/views/nested/menu1/index.vue)，原则上有多少级路由嵌套就需要多少个 `<router-view>`。
+如：[@/views/nested/menu1/index.vue](https://github.com/rcyj-FED/vue3-composition-admin/blob/master/src/views/nested/menu1/index.vue)，原则上有多少级路由嵌套就需要多少个 `<router-view>`。
 
 ## 点击侧边栏 刷新当前路由
 
@@ -249,7 +249,7 @@ render() {
 ```
 
 ::: tip 代码地址
-[@/views/redirect/index.vue](https://github.com/armour/vue3-composition-admin -template/blob/master/src/views/redirect/index.vue)
+[@/views/redirect/index.vue](https://github.com/rcyj-FED/vue3-composition-admin/blob/master/src/views/redirect/index.vue)
 :::
 
 ## 面包屑
@@ -259,7 +259,7 @@ render() {
 <img :src="$withBase('/images/breadcrumb.gif')" alt="面包屑">
 
 ::: tip 代码地址
-[@/components/Breadcrumb/index.vue](https://github.com/armour/vue3-composition-admin -template/blob/master/src/components/Breadcrumb/index.vue)
+[@/components/Breadcrumb/index.vue](https://github.com/rcyj-FED/vue3-composition-admin/blob/master/src/components/Breadcrumb/index.vue)
 :::
 
 ## 侧边栏滚动问题
@@ -279,7 +279,7 @@ overflow-y: scroll;
 所以现版本中使用了 `el-scrollbar` 来处理侧边栏滚动问题。
 
 ::: tip 代码地址
-[@/components/Sidebar/index.vue](https://github.com/armour/vue3-composition-admin -template/blob/master/src/layout/components/Sidebar/index.vue)
+[@/components/Sidebar/index.vue](https://github.com/rcyj-FED/vue3-composition-admin/blob/master/src/layout/components/Sidebar/index.vue)
 :::
 
 ## 侧边栏 外链
@@ -294,7 +294,7 @@ overflow-y: scroll;
   component: Layout,
   children: [
     {
-      path: 'https://github.com/Armour/vue3-composition-admin -template',
+      path: 'https://github.com/rcyj-FED/vue3-composition-admin',
       meta: {
         title: 'externalLink',
         icon: 'link'

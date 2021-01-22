@@ -11,7 +11,7 @@
 <img :src="$withBase('/images/layout.png')" alt="布局">
 
 ::: tip 对应代码
-[@/layout](https://github.com/armour/vue3-composition-admin -template/tree/master/src/layout)
+[@/layout](https://github.com/rcyj-FED/vue3-composition-admin/tree/master/src/layout)
 :::
 
 `@` 是 webpack 的 [alias](https://webpack.js.org/configuration/resolve/#resolve-alias) 不懂得请自行研究
@@ -57,7 +57,7 @@
 ## app-main
 
 ::: tip 对应代码
-[@/layout/components/AppMain](https://github.com/armour/vue3-composition-admin -template/blob/master/src/layout/components/AppMain.vue)
+[@/layout/components/AppMain](https://github.com/rcyj-FED/vue3-composition-admin/blob/master/src/layout/components/AppMain.vue)
 :::
 
 这里在 `app-main` 外部包了一层 `keep-alive` 主要是为了缓存 `<router-view>` 的，配合页面的 `tabs-view` 标签导航使用，如不需要可自行[去除](tags-view.md)。
@@ -86,7 +86,7 @@ get key() {
 ::: tip 示例
 或者可以像本项目中 `editForm` 和 `createForm` 那样声明两个不同的 view 但引入同一个 component。
 
-代码：[@/views/example](https://github.com/armour/vue3-composition-admin -template/tree/master/src/views/example)
+代码：[@/views/example](https://github.com/rcyj-FED/vue3-composition-admin/tree/master/src/views/example)
 :::
 
 ```html

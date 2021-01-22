@@ -6,17 +6,17 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Template from jarvis](https://img.shields.io/badge/Hi-Jarvis-ff69b4.svg)](https://github.com/Armour/Jarvis)
 [![Donate](https://img.shields.io/badge/%24-donate-ff69b4.svg)](https://armour.github.io/vue3-composition-admin-docs/donate)
-[![GitHub stars](https://img.shields.io/github/stars/armour/vue3-composition-admin -template.svg?style=social&label=Stars)](https://github.com/armour/vue3-composition-admin -template)
+[![GitHub stars](https://img.shields.io/github/stars/armour/vue3-composition-admin -template.svg?style=social&label=Stars)](https://github.com/rcyj-FED/vue3-composition-admin)
 
 [vue3-composition-admin -template](http://armour.github.io/vue3-composition-admin -template) is a production-ready front-end solution for admin interfaces which based on [vue](https://github.com/vuejs/vue), [typescript](https://www.typescriptlang.org/) and UI Toolkit [element-ui](https://github.com/ElemeFE/element). The original Javascript version code [vue-element-admin](http://armour.github.io/vue3-composition-admin -template) was written by [PanJiaChen](https://github.com/PanJiaChen), many thanks to him for the awesome open source project! :)
 
 This project is based on the newest development stack of vue, it has built-in i18n solution, dynamic routes, permission authentication, typical templates for enterprise applications, and many awesome features. It can help you to quickly build a production-ready admin panel and I believe you will find this project really helpful.
 
 :::tip
-This project integrates many features that you may not need in your own project. To remove some components that you don't need, check out [remove unused components](/guide/advanced/remove-unused-components) page, or you can use the basic template that under [minimal](https://github.com/Armour/vue3-composition-admin -template/tree/minimal) branch.
+This project integrates many features that you may not need in your own project. To remove some components that you don't need, check out [remove unused components](/guide/advanced/remove-unused-components) page, or you can use the basic template that under [minimal](https://github.com/rcyj-FED/vue3-composition-admin/tree/minimal) branch.
 
 Related projects:
-- Javascript integration example: [vue-element-admin](https://github.com/armour/vue3-composition-admin -template) (Credits: [PanJiaChen](https://github.com/PanJiaChen))
+- Javascript integration example: [vue-element-admin](https://github.com/rcyj-FED/vue3-composition-admin) (Credits: [PanJiaChen](https://github.com/PanJiaChen))
 - Javascript basic template: [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) (Credits: [PanJiaChen](https://github.com/PanJiaChen))
 :::
 
@@ -152,7 +152,7 @@ Most of the project structure are based on [vue-cli 3](https://cli.vuejs.org/).
 
 ```bash
 # clone the project
-git clone https://github.com/armour/vue3-composition-admin -template.git
+git clone https://github.com/rcyj-FED/vue3-composition-admin.git
 
 # enter the project directory
 cd vue3-composition-admin -template
