@@ -26,5 +26,5 @@ action "Deploy" {
   env = {
     BUILD_DIR = "docs/.vuepress/dist/"
   }
-  secrets = ["GH_PAT"]
+  secrets = ["ACCESS_TOKEN"]
 }
